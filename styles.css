@@ -1,0 +1,33 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600;700&display=swap');
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #d4a373;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover:after {
+            width: 100%;
+        }
+        
+        .policy-section {
+            background-color: #f8f9fa;
+            border-left: 4px solid #d4a373;
+        }
